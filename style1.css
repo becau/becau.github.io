@@ -1,0 +1,43 @@
+html, body {
+    height: 96%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #EFE0FF;
+    }
+.wrap {
+    min-height: 100%;
+    margin-bottom: -50px;
+  	width: 900px;
+	  margin: 0 auto;
+	  background: #DEE0FF;
+   }
+header {
+    background: #E8DEFF;
+    text-align: center;
+}
+.content, aside {
+    height: 400px;
+}
+* html .wrap {
+    height: 100%;
+}
+.content {
+    height: 50px;
+    float: left;
+    background: #CBCAE8;
+    width: 80%;
+   		}
+aside {
+	float: left;
+	background: #CAD9E8;
+	width: 20%;
+	}
+h2 {
+		text-align: center
+	}
+footer {
+		background: #DBCAE8;
+		clear: both;
+		text-align: center
+			}
